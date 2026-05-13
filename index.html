@@ -35,9 +35,14 @@
         .trust-badge { animation: pulseTrust 3.2s ease-in-out infinite; }
         @media (max-width: 640px) {
             body { padding: 12px; }
-            .hero-shell { min-height: 780px; box-shadow: 0 30px 70px -30px rgba(30, 58, 138, 0.65), 0 10px 24px -18px rgba(30, 58, 138, 0.75); }
-            .hero-bg { background-position: 62% center; }
-            .trust-badge { animation-duration: 4s; }
+            .hero-shell {
+                min-height: 720px;
+                height: auto; 
+                box-shadow: 0 30px 70px -32px rgba(28, 25, 23, 0.5), 0 12px 28px -18px rgba(28, 25, 23, 0.45);
+            }
+            
+            .hero-bg { background-position: 80% 10%; } 
+            .trust-badge { animation-duration: 4s; margin-bottom: 15px; }
         }
     </style>
 </head>
